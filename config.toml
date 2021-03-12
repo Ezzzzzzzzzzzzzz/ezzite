@@ -6,7 +6,7 @@ archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
 layoutDir    = "layouts"
-publishDir   = "public"
+publishDir   = "docs"
 
 disable404     = false
 
@@ -53,6 +53,7 @@ disable404     = false
     url = "https://github.com/Ezzzzzzzzzzzzzz"
 
   [[params.social]]
+
     name = "instagram"
     url = "https://www.instagram.com/e_zzau/"
 
