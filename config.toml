@@ -1,0 +1,83 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+disable404     = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Djordje Atlialp"
+  keywords = ""
+  images = [""]
+
+  homeSubtitle = "We are all monkeys!"
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  
+  [params.logo]
+    logoMark = ">"
+    logoText = "$ cd /home/"
+    logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/e_zzau"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/Ezzzzzzzzzzzzzz"
+
+  [[params.social]]
+    name = "instagram"
+    url = "https://www.instagram.com/e_zzau/"
+
+[author]
+  name = "Ezz"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[languages]
+  [languages.en]
+    title = "Ezzzz"
+    subtitle = ""
+    keywords = ""
+    readOtherPosts = "Read other posts"
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+  # And you can even create generic menu
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Post"
+    url        = "/posts"
