@@ -1,7 +1,7 @@
 ---
 title: "Optointerruptor"
 date: 2020-01-01T11:50:08-06:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
